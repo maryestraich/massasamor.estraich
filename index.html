@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delícias de Massa com amor</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #FFF0F5; /* Rosa bem clarinho */
+            color: #5E3F5A; /* Um tom de rosa/roxo mais escuro para o texto */
+            margin: 0;
+            padding: 0;
+            background-image: url('https://img.freepik.com/vetores-gratis/padrao-floral-aquarela-suave_23-2148368195.jpg?w=740'); /* Um fundo floral delicado */
+            background-repeat: repeat;
+            background-size: 300px; /* Ajuste o tamanho do padrão floral se precisar */
+        }
+        header {
+            background-color: #FFB6C1; /* Rosa mais vibrante para o cabeçalho */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: normal;
+            letter-spacing: 2px;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+        }
+        nav {
+            text-align: center;
+            padding: 15px;
+            background-color: #FFF0F5; /* Repete o tom clarinho */
+        }
+        nav a {
+            color: #E6677C; /* Um rosa mais forte para os links */
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #D43D51; /* Rosa mais escuro no hover */
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semi-transparente para o conteúdo */
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .recipe-section {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .recipe-section h2 {
+            color: #E6677C; /* Rosa forte para os títulos das seções */
+            font-size: 2em;
+            margin-bottom: 20px;
+            border-bottom: 2px dashed #FFB6C1; /* Detalhe delicado */
+            padding-bottom: 10px;
+        }
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%; /* Proporção 16:9 para vídeos */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #eee; /* Fundo enquanto o vídeo carrega */
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+            border-radius: 8px; /* Cantos arredondados para os vídeos */
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            background-color: #FFB6C1; /* Mesma cor do header */
+            color: white;
+            font-size: 0.9em;
+        }
+        .delicate-details {
+            font-size: 0.8em;
+            color: #E6677C; /* Rosa mais forte */
+            margin-top: 5px;
+            display: block; /* Para ocupar a linha */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Delícias de Massa com Amor</h1>
+        <p class="delicate-details">Receitas que aquecem o coração!</p>
+    </header>
+
+    <nav>
+        <a href="#massas-salgadas">Massas Salgadas</a>
+        <a href="#massas-doces">Massas Doces</a>
+        <a href="#dicas">Dicas de Massa</a>
+    </nav>
+
+    <div class="container">
+        <section class="recipe-section" id="massas-salgadas">
+            <h2>Massas Salgadas Incríveis</h2>
+            <p>Prepare-se para se deliciar com essas receitas de massas salgadas que vão conquistar seu paladar!</p>
+
+            <div class="video-wrapper">
+                <!-- Exemplo: Lasanha Bolonhesa -->
+                <iframe src="https://youtu.be/vzbcYemn36Y?si=uL4VtA6b3xNtC7u_" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <p class="delicate-details">Lasanha Bolonhesa Perfeita!</p>
+
+            <div class="video-wrapper" style="margin-top: 30px;">
+                <!-- Exemplo: Carbonara Clássica -->
+                <iframe src="https://youtube.com/shorts/VgWwE75cmUo?si=NMWzrPVr8CqH2JlT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <p class="delicate-details">Carbonara Autêntica!</p>
+        </section>
+
+        <section class="recipe-section" id="massas-doces">
+            <h2>Doces Momentos com Massas</h2>
+            <p>Para os amantes de um bom doce, essas massas vão te transportar para um mundo de sabor!</p>
+
+            <div class="video-wrapper">
+                <!-- Exemplo: Torta de Maçã -->
+                <iframe src="https://youtu.be/ySDoOpg1shA?si=w08WDsjGgJsU6AXB" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <p class="delicate-details">A Torta de Maçã Mais Fofa!</p>
+
+            <div class="video-wrapper" style="margin-top: 30px;">
+                <!-- Exemplo: Churros Caseiros -->
+                <iframe src="https://youtu.be/G6thPHt8mmg?si=xP9TDbnoZk0xF8mR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
